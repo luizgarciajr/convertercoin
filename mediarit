@@ -1,0 +1,25 @@
+//Programa de calculo da média
+console.log
+
+// declarando minhas variavevis
+var n1 = 1;   
+var n2 = 1;   
+
+/*
+  esse é um cometário de 
+  multiplas linhas, para colocar comentários mais longos
+*/
+var media = (n1 + n2) / 2;
+
+console.log("Suas notas foram: " + n1 + " e " + n2+  ". E a media foi: " + media);
+
+if(media >= 7){
+  //oque acontece se a condição for verdadeira
+  console.log("Aprovado");
+}
+if(media < 3){
+  console.log("Reprovado");
+}
+if(media >= 3 && media < 7){
+  console.log("Final");
+}
